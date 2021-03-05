@@ -10,24 +10,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 170px;
 }
 
 .player-X {
-    font-family: 'Rammstein Remix', sans-serif;
-    margin: 5px;
-    font-size: 80px;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 100px;
     font-weight: bolder;
     color: #4c99e6;
+    margin: 5px;
 }
 
 .player-O {
-    font-family: 'Hind Siliguri', sans-serif;
     font-family: 'Paytone One', sans-serif;
-    margin: 15px;
-    margin-top: -10px;
     font-size: 100px;
     font-weight: bolder;
     color: #fc9841;
+    margin: 5px;
 }
 
 button {

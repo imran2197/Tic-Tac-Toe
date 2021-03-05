@@ -1,14 +1,15 @@
 input {
     display: block;
-    margin: auto;
+    width: 50px;
     transform: scale(1.8);
-    margin-top: 25px;
+    margin: 20px 0 20px 10px;
 }
 
 .playAs {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 170px;
 }
 
 .pick {
@@ -16,22 +17,19 @@ input {
 }
 
 #player-X {
-    font-family: 'Rammstein Remix', sans-serif;
-    margin: 10px;
-    font-size: 82px;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 100px;
     font-weight: bolder;
     color: #4c99e6;
-    margin-top: 30px;
+    margin: 20px;
     cursor: pointer;
 }
 
 #player-O {
-    font-family: 'Hind Siliguri', sans-serif;
     font-family: 'Paytone One', sans-serif;
-    margin: 15px;
-    margin-top: -10px;
     font-size: 100px;
     font-weight: bolder;
     color: #fc9841;
+    margin: 20px;
     cursor: pointer;
 }
