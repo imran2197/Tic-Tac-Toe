@@ -1,0 +1,37 @@
+input {
+    display: block;
+    margin: auto;
+    transform: scale(1.8);
+    margin-top: 25px;
+}
+
+.playAs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pick {
+    font-size: 40px;
+}
+
+#player-X {
+    font-family: 'Rammstein Remix', sans-serif;
+    margin: 10px;
+    font-size: 82px;
+    font-weight: bolder;
+    color: #4c99e6;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#player-O {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Paytone One', sans-serif;
+    margin: 15px;
+    margin-top: -10px;
+    font-size: 100px;
+    font-weight: bolder;
+    color: #fc9841;
+    cursor: pointer;
+}

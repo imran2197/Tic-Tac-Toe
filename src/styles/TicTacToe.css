@@ -1,0 +1,37 @@
+body {
+    background-color: #ddd;
+}
+
+#container {
+    width: 85%;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Arial';
+    margin-top: 100px;
+}
+
+#board {
+    width: 100%;
+    margin: auto;
+}
+
+.turn {
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+
+}
+
+#score {
+    background-color: #fdfdfd;
+    width: 130px;
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-right: 25px;
+}

@@ -1,0 +1,56 @@
+.grid-item {
+    height: 100px;
+    width: 100px;
+    background-color: #fdfdfd;
+    border: 1px solid gray;
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Arial';
+    text-align: center;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.X {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-weight: bolder;
+    color: #4c99e6;
+    font-family: 'Paytone One', sans-serif;
+    padding-bottom: 5px;
+}
+
+.O {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-weight: bolder;
+    color: #fc9841;
+    height: 100px;
+    font-family: 'Paytone One', sans-serif;
+    padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .X {
+        font-size: 80px;
+    }
+
+    .O {
+        font-size: 80px;
+    }
+
+    .grid-item {
+        height: 100px;
+        width: 120px;
+        background-color: #fdfdfd;
+        border: 1px solid gray;
+        margin: 0;
+        font-size: 40px;
+        font-family: 'Arial';
+        text-align: center;
+    }
+}
