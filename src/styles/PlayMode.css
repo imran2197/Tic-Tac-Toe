@@ -38,6 +38,7 @@ button {
     height: 40px;
     border-radius: 50px;
     cursor: pointer;
+    background-color: white;
 }
 
 button:hover {
